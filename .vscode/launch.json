@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - a_DutyHour",
+            "request": "launch",
+            "mainClass": "com.media2359.tests.a_DutyHour",
+            "projectName": "NHG-Android-Automation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AppiumServerJava",
+            "request": "launch",
+            "mainClass": "com.media2359.utils.AppiumServerJava",
+            "projectName": "NHG-Android-Automation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.media2359.App",
+            "projectName": "NHG-Android-Automation"
+        }
+    ]
+}

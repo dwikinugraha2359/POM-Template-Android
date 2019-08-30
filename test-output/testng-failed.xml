@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appPackage" value="com.nhg.sandbox"/>
+  <parameter name="addToTime" value="01:00 AM"/>
+  <parameter name="addLDTitle" value="Add Log"/>
+  <parameter name="endHr" value="3"/>
+  <parameter name="selectCause" value="Participating an educational event of academic importance"/>
+  <parameter name="callDigit" value="18004834357"/>
+  <parameter name="deviceName" value="00fd7f39d4b8aaa1"/>
+  <parameter name="appPath" value="https://app.2359media.net/downloads/19658/1560419426/b085e8776e4340a5b18db257a2c454c3f6e2d7b65605e010767598c56e1e4e77"/>
+  <parameter name="editLDTitle" value="Edit Log"/>
+  <parameter name="addFromDate" value="2019-06-28"/>
+  <parameter name="forgotPassMessage" value="Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you."/>
+  <parameter name="password" value="password.123"/>
+  <parameter name="addAssignment" value="Post call"/>
+  <parameter name="titleDisclaimer" value="Disclaimer"/>
+  <parameter name="titleAsgModal" value="Select Assignment Type"/>
+  <parameter name="automationName" value="UiAutomator2"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="violationTitleLD" value="Violations"/>
+  <parameter name="editAssignment" value="Edu / Conference / Research"/>
+  <parameter name="email" value="resident3"/>
+  <parameter name="titleDutyHours" value="Duty Hours"/>
+  <parameter name="addFromTime" value="10:00 PM"/>
+  <parameter name="startHr" value="1"/>
+  <parameter name="titleLogDetail" value="Log Detail"/>
+  <parameter name="stringDate" value="2019-05-18"/>
+  <parameter name="filterAsg" value="Post call"/>
+  <parameter name="emailNHG" value="ITDHELP@NHG.COM.SG"/>
+  <parameter name="addToDate" value="2019-06-29"/>
+  <parameter name="appActivity" value="com.nhg.activity.login.LoginEmailActivity"/>
+  <parameter name="inputComments" value="Test Comments"/>
+  <parameter name="titleRotation" value="Rotation"/>
+  <parameter name="commentTitleLD" value="Comments"/>
+  <test thread-count="5" name="DutyHour(failed)">
+    <classes>
+      <class name="com.media2359.tests.b_DutyHour_listview">
+        <methods>
+          <include name="screenShot"/>
+          <include name="login"/>
+          <include name="beforeMethodStart"/>
+          <include name="B_014_goToListView"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.media2359.tests.b_DutyHour_listview -->
+    </classes>
+  </test> <!-- DutyHour(failed) -->
+</suite> <!-- Failed suite [Suite] -->

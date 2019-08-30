@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32825" started-at="2019-07-12T10:30:40Z" finished-at="2019-07-12T10:31:13Z">
+    <groups>
+    </groups>
+    <test name="Authentication" duration-ms="32825" started-at="2019-07-12T10:30:40Z" finished-at="2019-07-12T10:31:13Z">
+      <class name="com.media2359.tests.a_Authentication">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.media2359.tests.a_Authentication@2096442d]" name="setup" is-config="true" duration-ms="16151" started-at="2019-07-12T10:30:40Z" finished-at="2019-07-12T10:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ce11171b201b4c1005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://app.2359media.net/downloads/19658/1560419426/b085e8776e4340a5b18db257a2c454c3f6e2d7b65605e010767598c56e1e4e77]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.media2359.juztalent]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.media2359.juztalent.activity.SplashActivity]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UiAutomator2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethodStart()[pri:0, instance:com.media2359.tests.a_Authentication@2096442d]" name="beforeMethodStart" is-config="true" duration-ms="3" started-at="2019-07-12T10:30:56Z" finished-at="2019-07-12T10:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodStart -->
+        <test-method status="PASS" signature="A_001_LaunchApp()[pri:0, instance:com.media2359.tests.a_Authentication@2096442d]" name="A_001_LaunchApp" duration-ms="16261" started-at="2019-07-12T10:30:56Z" finished-at="2019-07-12T10:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_001_LaunchApp -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.media2359.tests.a_Authentication@2096442d]" name="screenShot" is-config="true" duration-ms="1" started-at="2019-07-12T10:31:12Z" finished-at="2019-07-12T10:31:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=A_001_LaunchApp status=SUCCESS method=a_Authentication.A_001_LaunchApp()[pri:0, instance:com.media2359.tests.a_Authentication@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.media2359.tests.a_Authentication@2096442d]" name="tearDown" is-config="true" duration-ms="391" started-at="2019-07-12T10:31:12Z" finished-at="2019-07-12T10:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.media2359.tests.a_Authentication -->
+    </test> <!-- Authentication -->
+  </suite> <!-- Suite -->
+</testng-results>

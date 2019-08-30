@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+    <!-- Dwiki Device-->
+    <!-- <parameter name="deviceName" value="988a9c465a5359593330" /> -->
+    <!-- Nexus 5 Device-->
+    <parameter name="deviceName" value="ce11171b201b4c1005" />
+    <parameter name="platformName" value="Android" />
+    <parameter name="automationName" value="UiAutomator2" />
+    <parameter name="appPackage" value="com.media2359.juztalent" />
+    <parameter name="appActivity" value="com.media2359.juztalent.activity.SplashActivity" />
+    <parameter name="appPath" value="https://app.2359media.net/downloads/19658/1560419426/b085e8776e4340a5b18db257a2c454c3f6e2d7b65605e010767598c56e1e4e77" />
+    <!-- Authentication -->
+    <parameter name="email" value="resident3" />
+    <parameter name="password" value="password.123" />
+    <parameter name="titleRotation" value="Rotation" />
+    <parameter name="titleDisclaimer" value="Disclaimer" />
+    <parameter name="forgotPassMessage" value="Please contact ITD Helpdesk (1800-483-4357) or email ITDHELP@NHG.COM.SG to change your NHG ADID Password. Thank you." />
+    <parameter name="callDigit" value="18004834357" />
+    <parameter name="emailNHG" value="ITDHELP@NHG.COM.SG" />
+    
+    <!-- parameter for path file -->
+    <!-- ********************************* -->
+    <test name="Authentication">
+        <classes>
+            <class name="com.media2359.tests.a_Authentication">
+                <methods>
+                    <include name="A_001_LaunchApp" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!-- Test Authentication -->
+</suite> <!-- Suite -->
