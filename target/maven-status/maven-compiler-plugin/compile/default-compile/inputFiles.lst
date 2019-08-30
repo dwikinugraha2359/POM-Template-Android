@@ -1,4 +1,5 @@
-/Users/2359id/developments/office/NHG-Android-Automation2/src/main/java/com/media2359/helper/HelperAppium.java
-/Users/2359id/developments/office/NHG-Android-Automation2/src/main/java/com/media2359/helper/HelperFunc.java
-/Users/2359id/developments/office/NHG-Android-Automation2/src/main/java/com/media2359/pages/BasePage.java
-/Users/2359id/developments/office/NHG-Android-Automation2/src/main/java/com/media2359/pages/AuthenticationPage.java
+/Users/2359id/developments/office/POM-Template-Android/src/main/java/com/media2359/pages/AuthenticationPage.java
+/Users/2359id/developments/office/POM-Template-Android/src/main/java/com/media2359/helper/HelperFunc.java
+/Users/2359id/developments/office/POM-Template-Android/src/main/java/com/media2359/base/BaseTest.java
+/Users/2359id/developments/office/POM-Template-Android/src/main/java/com/media2359/pages/BasePage.java
+/Users/2359id/developments/office/POM-Template-Android/src/main/java/com/media2359/helper/HelperAppium.java

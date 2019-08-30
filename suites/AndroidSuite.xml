@@ -7,10 +7,10 @@
     <parameter name="deviceName" value="ce11171b201b4c1005" />
     <parameter name="platformName" value="Android" />
     <parameter name="automationName" value="UiAutomator2" />
-    <parameter name="appPackage" value="com.media2359.juztalent" />
-    <parameter name="appActivity" value="com.media2359.juztalent.activity.SplashActivity" />
-    <parameter name="appPath" value="https://app.2359media.net/downloads/19658/1560419426/b085e8776e4340a5b18db257a2c454c3f6e2d7b65605e010767598c56e1e4e77" />
-    <!-- Authentication -->
+    <parameter name="appPackage" value="app-package" />
+    <parameter name="appActivity" value="app-activity" />
+    <parameter name="appPath" value="app-path" />
+    <!-- Authentication - example -->
     <parameter name="email" value="resident3" />
     <parameter name="password" value="password.123" />
     <parameter name="titleRotation" value="Rotation" />

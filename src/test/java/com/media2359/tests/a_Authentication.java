@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.media2359.base.BaseTest;
 import com.media2359.pages.AuthenticationPage;
 
 /**

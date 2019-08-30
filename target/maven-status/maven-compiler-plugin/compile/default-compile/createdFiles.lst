@@ -1,1 +1,5 @@
+com/media2359/pages/AuthenticationPage.class
+com/media2359/tests/BaseTest.class
 com/media2359/pages/BasePage.class
+com/media2359/helper/HelperAppium.class
+com/media2359/helper/HelperFunc.class
